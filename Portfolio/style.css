@@ -1,0 +1,100 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.main{
+  width: 100%;
+  background:url(/bg_image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  
+}
+
+
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+}
+
+ul li a:hover{
+  color: rgb(230,104,59);
+}
+
+.info{
+  margin-left:7%;
+  margin-top: 6%;
+  width:50%;
+}
+
+.info h1{
+  font-size: 65px;
+  color: rgb(36,32,31);
+}
+
+.info h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.info span{
+  color: rgb(230,104,59);
+}
+
+.info a{
+     text-decoration: none;
+    color: white;
+    background-color: rgb(36,32,31);
+    margin: 25px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info a:hover{
+  background: rgb(58,173,208);
+}
+
+.image{
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  top:10%;
+}
+
+.image img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 0%;
+  transform: translate(-55%);
+  border-radius: 40%;
+  
+  transition: left 2s ease;
+}
+
+.image:hover .boy{
+  left: 55%;
+}
